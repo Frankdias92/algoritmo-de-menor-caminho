@@ -13,7 +13,7 @@ grafo = {
 }
 
 
-def dijkstra(grafo, inicio, destino):
+def dijkstra(grafo, inicio):
 
     distancias = {vertice: float("inf") for vertice in grafo}
     distancias[inicio] = 0
