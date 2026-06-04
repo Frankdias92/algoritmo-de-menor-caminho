@@ -42,7 +42,7 @@ def dijkstra(grafo, inicio):
     return distancias, caminhos
 
 
-distancias, caminhos = dijkstra(grafo, "CEASA", "Nordestao")
+distancias, caminhos = dijkstra(grafo, "CEASA")
 
 print("=" * 50)
 print("ALGORITMO DE DIJKSTRA")
